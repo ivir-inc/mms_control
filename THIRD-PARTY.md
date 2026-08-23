@@ -59,4 +59,4 @@ The complete texts of the licenses referenced above are included in
 
 - [`licenses/Apache-2.0.txt`](licenses/Apache-2.0.txt)
 - [`licenses/MIT.txt`](licenses/MIT.txt)
-- `licenses/CDDL-1.0.txt` — **TODO:** add before publishing (required for Portico)
+- `licenses/CDDL-1.0.txt` 

@@ -19,5 +19,5 @@
     evolvedFomURL = HLAstandardMIM.xml
 
     # Additional HLA 1516-2010 Evolved FOM Module URLs
-    additionalFomURLs = Base.xml ; Communications.xml ; Facility.xml ; Instructional.xml ; Medical%20Logistics.xml ; Patient.xml ;  SimControl.xml ; TransferPatient.xml ; Facility.xml
+    additionalFomURLs = Base.xml ; Communications.xml ; Facility.xml ; Instructional.xml ; Medical Logistics.xml ; Patient.xml ;  SimControl.xml ; TransferPatient.xml ; Facility.xml
 

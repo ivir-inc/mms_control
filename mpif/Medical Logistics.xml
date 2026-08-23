@@ -3,10 +3,10 @@
     <modelIdentification>
         <name>MedicalLogistics</name>
         <type>FOM</type>
-        <version>0.2</version>
-        <modificationDate>2019-07-23</modificationDate>
+        <version>4</version>
+        <modificationDate>2026-08-18</modificationDate>
         <securityClassification>unclassified</securityClassification>
-        <releaseRestriction>TBD by US Government (expected to be "Unlimited Release")</releaseRestriction>
+        <releaseRestriction>None</releaseRestriction>
         <purpose>Modeling medical logistics related to medical evacuation</purpose>
         <applicationDomain>Training</applicationDomain>
         <description>The MedicalLogistics module contains the representations related to all medical logistics.  
@@ -19,10 +19,6 @@ Representations of Logistics will differ by role level.</description>
             <pocOrg>Information Visualization and Innovative Research Inc.</pocOrg>
             <pocEmail>jets@ivirinc.com</pocEmail>
         </poc>
-        <reference>
-            <type>FM 4-02.1 - Army Medical Logistics</type>
-            <identification></identification>
-        </reference>
         <other></other>
     </modelIdentification>
     <objects>
