@@ -1,7 +1,6 @@
 # MMS Control
 
-MMS Control is a medical simulation control system for the MMS (Medical
-Modeling & Simulation) federation. It provides a web-based control interface for
+MMS Control is a medical simulation control system for the Joint Emergency Trauma Simulation (JETS) federation. It provides a web-based control interface for
 managing simulated patients, treatments, medications, scenarios, and facilities,
 and acts as an HLA (High Level Architecture) federate that exchanges ground-truth
 patient data with other federates.
@@ -16,12 +15,19 @@ The backend connects to a federation using the
 [Portico](https://github.com/openlvc/portico) RTI and the HLA 1516-2010 (Evolved)
 FOM modules included in this repository.
 
+You can also view and download the [MMS FOM](https://github.com/ivir-inc/jets_mms_fom) separately.
+
+See the [Quick Guide](https://github.com/ivir-inc/mms_control/blob/main/docs/quick_guide.md) for system operation notes.
+
+For more information, please contact jets@ivirinc.com
+
+For additional detail on JETS, see https://jets-systems.com/
+
 ## Features
 
 - Web-based control interface (served over HTTPS on port `6544`)
 - Create, monitor, and control simulated patients, injuries, and vital signs
 - Customize treatments, medications, and their layout
-- Scenario engine with rule-based events (easy-rules)
 - Facility management and patient transfer
 - QR-code startup tab for quick client connection
 - HLA federation integration (join/resign, object/interaction exchange)
