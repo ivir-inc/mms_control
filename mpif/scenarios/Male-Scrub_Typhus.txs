@@ -1,0 +1,56 @@
+{
+"name": "Male - Scrub Typhus",
+"injuries": [
+],
+"medications": [
+  {
+    "treatmentName": "Antibiotic",
+    "location": null,
+    "medication": "CLINDAMYCIN",
+    "route": null,
+    "dosageUnderVal": 25,
+    "dosageOverVal": 100,
+    "dosageCorrectVal": 50,
+    "timePeriod": null
+  },
+  {
+    "treatmentName": "Acetaminophen",
+    "location": null,
+    "medication": "ACETAMINOPHEN",
+    "route": null,
+    "dosageUnderVal": 650,
+    "dosageOverVal": 2600,
+    "dosageCorrectVal": 1300,
+    "timePeriod": null
+  },
+  {
+    "treatmentName": "NSAID",
+    "location": null,
+    "medication": "ASPIRIN",
+    "route": null,
+    "dosageUnderVal": 325,
+    "dosageOverVal": 1300,
+    "dosageCorrectVal": 650,
+    "timePeriod": null
+  },
+  {
+    "treatmentName": "Oxygen",
+    "location": null,
+    "medication": "OXYGEN",
+    "route": null,
+    "dosageUnderVal": 250,
+    "dosageOverVal": 650,
+    "dosageCorrectVal": 500,
+    "timePeriod": null
+  },
+  {
+    "treatmentName": "Saline 0.9%",
+    "location": null,
+    "medication": "SALINE09",
+    "route": null,
+    "dosageUnderVal": 25,
+    "dosageOverVal": 100,
+    "dosageCorrectVal": 50,
+    "timePeriod": null
+  }]
+}

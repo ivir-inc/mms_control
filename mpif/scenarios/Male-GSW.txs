@@ -1,0 +1,97 @@
+{
+"name": "Male - GSW",
+"injuries": [
+  {
+  "name": "GSW RLE",
+  "treatments": [
+    {"treatmentName": "Hemostatic Drsg",
+    "physicalTreatment": "STOP_HEMORRHAGE",
+    "device": "BANDAGE",
+    "location": "ANTERIOR_RIGHT_THIGH"
+    },
+    {"treatmentName": "Pressure Drsg",
+    "physicalTreatment": "STOP_HEMORRHAGE",
+    "device": "BANDAGE",
+    "location": "ANTERIOR_RIGHT_THIGH"
+    },
+    {"treatmentName": "Junctional Tq",
+    "physicalTreatment": "STOP_HEMORRHAGE",
+    "device": "JUNCTIONAL_TOURNIQUET",
+    "location": "ANTERIOR_RIGHT_PELVIS"
+    },
+    {"treatmentName": "Extremity Tq",
+    "physicalTreatment": "STOP_HEMORRHAGE",
+    "device": "EXTREMITY_TOURNIQUET",
+    "location": "ANTERIOR_RIGHT_THIGH"
+    }]
+  },
+  {
+  "name": "Right Pneumothorax",
+  "treatments": [
+    {"treatmentName": "NCD",
+    "physicalTreatment": "RELEASE_INTRAPLEURAL_PRESSURE",
+    "device": "CHEST_NEEDLE_DECOMPRESSION",
+    "location": "ANTERIOR_RIGHT_UPPER_THORAX"
+    },
+    {"treatmentName": "Chest Tube",
+    "physicalTreatment": "RELEASE_INTRAPLEURAL_PRESSURE",
+    "device": "CHEST_TUBE",
+    "location": "ANTERIOR_RIGHT_LOWER_THORAX"
+    }]
+  },
+  {
+  "name": "Left Pneumothorax",
+  "treatments": [
+    {"treatmentName": "NCD",
+    "physicalTreatment": "RELEASE_INTRAPLEURAL_PRESSURE",
+    "device": "CHEST_NEEDLE_DECOMPRESSION",
+    "location": "ANTERIOR_LEFT_UPPER_THORAX"
+    },
+    {"treatmentName": "Chest Tube",
+    "physicalTreatment": "RELEASE_INTRAPLEURAL_PRESSURE",
+    "device": "CHEST_TUBE",
+    "location": "ANTERIOR_LEFT_LOWER_THORAX"
+    }]
+  }],
+"medications": [
+  {
+    "treatmentName": "Fresh Whole Blood",
+    "location": null,
+    "medication": "FRESH_WHOLE_BLOOD",
+    "route": null,
+    "dosageUnderVal": 12.5,
+    "dosageOverVal": 50,
+    "dosageCorrectVal": 25,
+    "timePeriod": null
+  },
+  {
+    "treatmentName": "Plasma",
+    "location": null,
+    "medication": "PLASMA",
+    "route": null,
+    "dosageUnderVal": 12.5,
+    "dosageOverVal": 50,
+    "dosageCorrectVal": 20,
+    "timePeriod": null
+  },
+  {
+    "treatmentName": "Red Blood Cell",
+    "location": null,
+    "medication": "RED_BLOOD_CELLS",
+    "route": null,
+    "dosageUnderVal": 12.5,
+    "dosageOverVal": 50,
+    "dosageCorrectVal": 25,
+    "timePeriod": null
+  },
+  {
+    "treatmentName": "Tranexamic Acid",
+    "location": null,
+    "medication": "TRANEXAMIC_ACID",
+    "route": null,
+    "dosageUnderVal": 500,
+    "dosageOverVal": 2000,
+    "dosageCorrectVal": 1000,
+    "timePeriod": null
+  }]
+}

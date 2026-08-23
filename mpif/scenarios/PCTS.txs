@@ -1,0 +1,119 @@
+{
+"name": "PCTS",
+"injuries": [
+  {
+  "name": "All",
+  "treatments": [
+    {"treatmentName": "stopHemorrhageWithTq",
+    "physicalTreatment": "STOP_HEMORRHAGE",
+    "device": "EXTREMITY_TOURNIQUET",
+    "location": "ANTERIOR_RIGHT_THIGH"
+    },
+    {"treatmentName": "openNasalAirway",
+    "physicalTreatment": "OPEN_NASAL_AIRWAY",
+    "device": "NASOPHARYNGEAL_AIRWAY",
+    "location": "ANTERIOR_HEAD_FACE"
+    },
+    {"treatmentName": "releaseIntrapleuralPressureNcd",
+    "physicalTreatment": "RELEASE_INTRAPLEURAL_PRESSURE",
+    "device": "CHEST_NEEDLE_DECOMPRESSION",
+    "location": "ANTERIOR_LEFT_UPPER_THORAX"
+    },
+    {"treatmentName": "openTrachealAirway",
+    "physicalTreatment": "OPEN_TRACHEAL_AIRWAY",
+    "device": "ENDOTRACHEAL_TUBE",
+    "location": "ANTERIOR_NECK"
+    },
+    {"treatmentName": "warmPatient",
+    "physicalTreatment": "WARM_PATIENT",
+    "device": "MYLAR_BLANKET",
+    "location": "NOT_APPLICABLE"
+    },
+    {"treatmentName": "releaseIntrapleuralPressureChestTube",
+    "physicalTreatment": "RELEASE_INTRAPLEURAL_PRESSURE",
+    "device": "CHEST_TUBE",
+    "location": "ANTERIOR_LEFT_UPPER_THORAX"
+    },
+    {"treatmentName": "bandageBurn",
+    "physicalTreatment": "BANDAGE_BURN",
+    "device": "BANDAGE",
+    "location": "ANTERIOR_ABDOMEN_LEFT_UPPER_QUADRANT"
+    },
+    {"treatmentName": "stopInternalHemorrhage",
+    "physicalTreatment": "STOP_HEMORRHAGE",
+    "device": "NOT_APPLICABLE",
+    "location": "ANTERIOR_ABDOMEN_RIGHT_UPPER_QUADRANT"
+    }
+    ]
+  }
+  ],
+"medications": [
+  {
+    "treatmentName": "ketamine",
+    "location": null,
+    "medication": "ketamine",
+    "route": "INTRAMUSCULAR",
+    "dosageUnderVal": 12.5,
+    "dosageOverVal": 50,
+    "dosageCorrectVal": 25,
+    "timePeriod": null,
+    "analgesics": true,
+    "sedation": true
+  },
+  {
+    "treatmentName": "freshWholeBlood",
+    "location": null,
+    "medication": "freshWholeBlood",
+    "route": "INTRAVENOUS_DRIP",
+    "dosageUnderVal": 12.5,
+    "dosageOverVal": 50,
+    "dosageCorrectVal": 20,
+    "timePeriod": null,
+    "bloodProducts": true
+  },
+  {
+    "treatmentName": "tranexamicAcid",
+    "location": null,
+    "medication": "tranexamicAcid",
+    "route": "INTRAVENOUS_BOLUS",
+    "dosageUnderVal": 12.5,
+    "dosageOverVal": 50,
+    "dosageCorrectVal": 25,
+    "timePeriod": null,
+    "clottingMedication": "COAGULANT"
+  },
+  {
+    "treatmentName": "calciumGluconate",
+    "location": null,
+    "medication": "calciumGluconate",
+    "route": "INTRAVENOUS_BOLUS",
+    "dosageUnderVal": 500,
+    "dosageOverVal": 2000,
+    "dosageCorrectVal": 1000,
+    "timePeriod": null,
+    "nutrition": true
+  },
+  {
+    "treatmentName": "saline09",
+    "location": null,
+    "medication": "saline09",
+    "route": "INTRAVENOUS_DRIP",
+    "dosageUnderVal": 500,
+    "dosageOverVal": 2000,
+    "dosageCorrectVal": 1000,
+    "timePeriod": null,
+    "fluidMedication": "ISOTONIC"
+  },
+  {
+    "treatmentName": "meropenem",
+    "location": null,
+    "medication": "meropenem",
+    "route": "INTRAVENOUS_BOLUS",
+    "dosageUnderVal": 500,
+    "dosageOverVal": 2000,
+    "dosageCorrectVal": 1000,
+    "timePeriod": null,
+    "infectionMedication": "ANTIBIOTIC"
+  }
+  ]
+}

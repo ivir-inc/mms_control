@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<objectModel xsi:schemaLocation="http://standards.ieee.org/IEEE1516-2010 http://standards.ieee.org/downloads/1516/1516.2-2010/IEEE1516-DIF-2010.xsd" xmlns="http://standards.ieee.org/IEEE1516-2010" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <modelIdentification>
+        <name>Facility</name>
+        <type>FOM</type>
+        <version>4</version>
+        <modificationDate>2026-08-18</modificationDate>
+        <securityClassification>unclassified</securityClassification>
+        <releaseRestriction>None</releaseRestriction>
+        <purpose>To model facilities providing evacuation and enroute medical care</purpose>
+        <applicationDomain>Training</applicationDomain>
+        <description>Used to describe the various facilities offering evacuation and enroute treatment to an injured patient.  
+
+
+</description>
+        <useLimitation>The Medical Modeling and Simulation Federation Object Model by Information Visualization and Innovative Research, Inc. is licensed under CC BY-ND 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nd/4.0/</useLimitation>
+        <poc>
+            <pocType>Technical POC</pocType>
+            <pocName></pocName>
+            <pocOrg>Information Visualization and Innovative Research Inc.</pocOrg>
+            <pocEmail>jets@ivirinc.com</pocEmail>
+        </poc>
+        <other></other>
+    </modelIdentification>
+    <objects>
+        <objectClass>
+            <name>HLAobjectRoot</name>
+            <objectClass>
+                <name>Facility</name>
+                <sharing>PublishSubscribe</sharing>
+                <semantics>Generally, describes any physical location that can provide medical support.  Ambulances/AE helos are mobile facilities while hospitals are fixed.</semantics>
+                <attribute>
+                    <name>facilityId</name>
+                    <dataType>HLAASCIIstring</dataType>
+                    <updateType>Static</updateType>
+                    <updateCondition>On creation</updateCondition>
+                    <ownership>NoTransfer</ownership>
+                    <sharing>PublishSubscribe</sharing>
+                    <transportation>HLAreliable</transportation>
+                    <order>Receive</order>
+                    <semantics>A unique Identifier for a facility.</semantics>
+                </attribute>
+                <attribute>
+                    <name>location</name>
+                    <dataType>PhysicalLocationRecord</dataType>
+                    <updateType>Conditional</updateType>
+                    <updateCondition>On change</updateCondition>
+                    <ownership>NoTransfer</ownership>
+                    <sharing>PublishSubscribe</sharing>
+                    <transportation>HLAreliable</transportation>
+                    <order>Receive</order>
+                    <semantics>Represent the physical location of the facility.</semantics>
+                </attribute>
+                <attribute>
+                    <name>roleOfCare</name>
+                    <dataType>RoleOfCareEnum</dataType>
+                    <updateType>Conditional</updateType>
+                    <updateCondition>On change</updateCondition>
+                    <ownership>NoTransfer</ownership>
+                    <sharing>PublishSubscribe</sharing>
+                    <transportation>HLAreliable</transportation>
+                    <order>Receive</order>
+                    <semantics>Identifies the role of care the facility can support.</semantics>
+                </attribute>
+                <attribute>
+                    <name>facilityType</name>
+                    <dataType>FacilityTypeEnum</dataType>
+                    <updateType>Conditional</updateType>
+                    <updateCondition>On change</updateCondition>
+                    <ownership>NoTransfer</ownership>
+                    <sharing>PublishSubscribe</sharing>
+                    <transportation>HLAreliable</transportation>
+                    <order>Receive</order>
+                    <semantics>Describes the type of facility</semantics>
+                </attribute>
+                <attribute>
+                    <name>patientCapacity</name>
+                    <dataType>Integer32BE</dataType>
+                    <updateType>Conditional</updateType>
+                    <updateCondition>on Change</updateCondition>
+                    <ownership>NoTransfer</ownership>
+                    <sharing>PublishSubscribe</sharing>
+                    <transportation>HLAreliable</transportation>
+                    <order>Receive</order>
+                    <semantics>Maximum number of patients the facility can accomodate.</semantics>
+                </attribute>
+            </objectClass>
+        </objectClass>
+    </objects>
+    <interactions>
+        <interactionClass>
+            <name>HLAinteractionRoot</name>
+            <interactionClass>
+                <name>ControlVehicleMovement</name>
+                <sharing>Neither</sharing>
+                <transportation>HLAreliable</transportation>
+                <order>Receive</order>
+                <semantics>Interactions to start, stop, pause and resume vehicle movement.</semantics>
+                <parameter>
+                    <name>facilityId</name>
+                    <dataType>HLAASCIIstring</dataType>
+                    <semantics>A unique Identifier for a facility.</semantics>
+                </parameter>
+                <interactionClass>
+                    <name>ResumeVehicleMovement</name>
+                    <sharing>PublishSubscribe</sharing>
+                    <transportation>HLAreliable</transportation>
+                    <order>Receive</order>
+                    <semantics>Used to resume vehicle movement</semantics>
+                </interactionClass>
+                <interactionClass>
+                    <name>PauseVehicleMovement</name>
+                    <sharing>PublishSubscribe</sharing>
+                    <transportation>HLAreliable</transportation>
+                    <order>Receive</order>
+                    <semantics>Used to pause vehicle movement</semantics>
+                </interactionClass>
+                <interactionClass>
+                    <name>StartVehicleMovement</name>
+                    <sharing>PublishSubscribe</sharing>
+                    <transportation>HLAreliable</transportation>
+                    <order>Receive</order>
+                    <semantics>Used to start vehicle movement</semantics>
+                </interactionClass>
+                <interactionClass>
+                    <name>StopVehicleMovement</name>
+                    <sharing>PublishSubscribe</sharing>
+                    <transportation>HLAreliable</transportation>
+                    <order>Receive</order>
+                    <semantics>Used to stop vehicle movement</semantics>
+                </interactionClass>
+            </interactionClass>
+        </interactionClass>
+    </interactions>
+    <switches>
+        <autoProvide isEnabled="true"/>
+        <conveyRegionDesignatorSets isEnabled="false"/>
+        <conveyProducingFederate isEnabled="false"/>
+        <attributeScopeAdvisory isEnabled="false"/>
+        <attributeRelevanceAdvisory isEnabled="false"/>
+        <objectClassRelevanceAdvisory isEnabled="false"/>
+        <interactionRelevanceAdvisory isEnabled="false"/>
+        <serviceReporting isEnabled="false"/>
+        <exceptionReporting isEnabled="false"/>
+        <delaySubscriptionEvaluation isEnabled="false"/>
+        <automaticResignAction resignAction="CancelThenDeleteThenDivest"/>
+    </switches>
+    <dataTypes>
+        <simpleDataTypes/>
+        <enumeratedDataTypes>
+            <enumeratedData>
+                <name>RoleOfCareEnum</name>
+                <representation>HLAinteger32BE</representation>
+                <semantics>Role of care provided by a facility.</semantics>
+                <enumerator>
+                    <name>role1</name>
+                    <value>0</value>
+                </enumerator>
+                <enumerator>
+                    <name>role2</name>
+                    <value>1</value>
+                </enumerator>
+                <enumerator>
+                    <name>role3</name>
+                    <value>2</value>
+                </enumerator>
+                <enumerator>
+                    <name>role4</name>
+                    <value>3</value>
+                </enumerator>
+                <enumerator>
+                    <name>enRoute</name>
+                    <value>4</value>
+                </enumerator>
+            </enumeratedData>
+            <enumeratedData>
+                <name>FacilityTypeEnum</name>
+                <representation>HLAinteger32BE</representation>
+                <semantics>Type of facility.</semantics>
+                <enumerator>
+                    <name>fixed</name>
+                    <value>0</value>
+                </enumerator>
+                <enumerator>
+                    <name>ground</name>
+                    <value>1</value>
+                </enumerator>
+                <enumerator>
+                    <name>air</name>
+                    <value>2</value>
+                </enumerator>
+            </enumeratedData>
+        </enumeratedDataTypes>
+        <arrayDataTypes/>
+        <fixedRecordDataTypes/>
+        <variantRecordDataTypes/>
+    </dataTypes>
+    <notes/>
+</objectModel>

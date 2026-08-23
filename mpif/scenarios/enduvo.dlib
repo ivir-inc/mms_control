@@ -1,0 +1,45 @@
+{
+  "dnbiList": [
+    {
+       "displayName": "Shingles",
+       "enduvoLessonName": "shingles",
+       "states": [
+          {
+            "enduvoStateId": 0,
+            "stateName": "Hour 1"
+          },
+          {
+            "enduvoStateId": 1,
+            "stateName": "Hour 24"
+          },
+          {
+            "enduvoStateId": 2,
+            "stateName": "Hour 48"
+          }
+
+       ]
+    },
+    {
+       "displayName": "Scrub Typhus",
+       "enduvoLessonName": "review",
+       "states": [
+          {
+            "enduvoStateId": 0,
+            "stateName": "Hour 1"
+          },
+          {
+            "enduvoStateId": 1,
+            "stateName": "Hour 24"
+          },
+          {
+            "enduvoStateId": 1,
+            "stateName": "Hour 48 Treated"
+          },
+          {
+            "enduvoStateId": 2,
+            "stateName": "Hour 48 Untreated"
+          }
+       ]
+    }
+  ]
+}

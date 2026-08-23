@@ -1,0 +1,61 @@
+
+{
+"scenarios": [
+	{
+		"name": "Male - Burn",
+		"negligible": 5,
+		"low": 30,
+		"desired": 80,
+		"high": 100
+	},
+	{
+		"name": "Male - Truama",
+		"negligible": 5,
+		"low": 20,
+		"desired": 30,
+		"high": 80
+	},
+	{
+		"name": "Male - Head Injured",
+		"negligible": 5,
+		"low": 20,
+		"desired": 40,
+		"high": 80
+	},
+	{
+		"name": "Male - Medical/Disease",
+		"negligible": 5,
+		"low": 30,
+		"desired": 80,
+		"high": 100
+	},
+	{
+		"name": "Female - Burn",
+		"negligible": 5,
+		"low": 20,
+		"desired": 60,
+		"high": 80
+	},
+	{
+		"name": "Female - Trauma",
+		"negligible": 5,
+		"low": 20,
+		"desired": 30,
+		"high": 80
+	},
+	{
+		"name": "Female - Head Injured",
+		"negligible": 5,
+		"low": 20,
+		"desired": 40,
+		"high": 80
+	},
+	{
+		"name": "Female - Medical/Disease",
+		"negligible": 5,
+		"low": 30,
+		"desired": 60,
+		"high": 80
+	}
+]
+}

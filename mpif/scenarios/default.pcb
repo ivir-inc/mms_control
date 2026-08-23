@@ -1,0 +1,566 @@
+[ {
+  "caseNum" : null,
+  "name" : "Default",
+  "biologicalSex" : "FEMALE",
+  "treatments" : [ {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "PHYSICAL_TREATMENT",
+    "physicalTreatment" : "STOP_HEMORRHAGE",
+    "physicalDevice" : null,
+    "medication" : null,
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  }, {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "PHYSICAL_TREATMENT",
+    "physicalTreatment" : "CHEST_COMPRESSION",
+    "physicalDevice" : null,
+    "medication" : null,
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  }, {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "PHYSICAL_TREATMENT",
+    "physicalTreatment" : "DEFIBRILLATE",
+    "physicalDevice" : null,
+    "medication" : null,
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  }, {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "PHYSICAL_TREATMENT",
+    "physicalTreatment" : "WARM_PATIENT",
+    "physicalDevice" : null,
+    "medication" : null,
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  }, {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "PHYSICAL_TREATMENT",
+    "physicalTreatment" : "OPEN_NASAL_AIRWAY",
+    "physicalDevice" : null,
+    "medication" : null,
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  }, {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "PHYSICAL_TREATMENT",
+    "physicalTreatment" : "ELEVATE_HEAD",
+    "physicalDevice" : null,
+    "medication" : null,
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  }, {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "PHYSICAL_TREATMENT",
+    "physicalTreatment" : "OPEN_TRACHEAL_AIRWAY",
+    "physicalDevice" : null,
+    "medication" : null,
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  }, {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "PHYSICAL_TREATMENT",
+    "physicalTreatment" : "VENTILATION_PEEP15",
+    "physicalDevice" : null,
+    "medication" : null,
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  }, {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "PHYSICAL_TREATMENT",
+    "physicalTreatment" : "VENTILATION_HYPER",
+    "physicalDevice" : null,
+    "medication" : null,
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  }, {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "PHYSICAL_TREATMENT",
+    "physicalTreatment" : "VENTILATION_PEEP5",
+    "physicalDevice" : null,
+    "medication" : null,
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  }, {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "PHYSICAL_TREATMENT",
+    "physicalTreatment" : "VENTILATION_MANUAL",
+    "physicalDevice" : null,
+    "medication" : null,
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  }, {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "PHYSICAL_TREATMENT",
+    "physicalTreatment" : "RELEASE_INTRAPLEURAL_PRESSURE",
+    "physicalDevice" : null,
+    "medication" : null,
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  }, {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "PHYSICAL_TREATMENT",
+    "physicalTreatment" : "SEAL_CHEST_WOUND",
+    "physicalDevice" : null,
+    "medication" : null,
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  }, {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "PHYSICAL_TREATMENT",
+    "physicalTreatment" : "BANDAGE_BURN",
+    "physicalDevice" : null,
+    "medication" : null,
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  }, {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "PHYSICAL_TREATMENT",
+    "physicalTreatment" : "CLEAN_WOUND",
+    "physicalDevice" : null,
+    "medication" : null,
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  }, {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "PHYSICAL_TREATMENT",
+    "physicalTreatment" : "RELEASE_COMPARTMENTAL_PRESSURE",
+    "physicalDevice" : null,
+    "medication" : null,
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  }, {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "PHYSICAL_TREATMENT",
+    "physicalTreatment" : "RELEASE_SKIN_PRESSURE",
+    "physicalDevice" : null,
+    "medication" : null,
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  }, {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "PHYSICAL_TREATMENT",
+    "physicalTreatment" : "STABILIZE_ORTHOPEDIC_FRACTURE",
+    "physicalDevice" : null,
+    "medication" : null,
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  }, {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "PHYSICAL_TREATMENT",
+    "physicalTreatment" : "IMMOBILIZE_SPINE",
+    "physicalDevice" : null,
+    "medication" : null,
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  }, {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "PHYSICAL_TREATMENT",
+    "physicalTreatment" : "COVER_EYE",
+    "physicalDevice" : null,
+    "medication" : null,
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  }, {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "PHYSICAL_TREATMENT",
+    "physicalTreatment" : "CATHETERIZE",
+    "physicalDevice" : null,
+    "medication" : null,
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  }, {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "MEDICATION_TREATMENT",
+    "physicalTreatment" : null,
+    "physicalDevice" : null,
+    "medication" : "FRESH_WHOLE_BLOOD",
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  }, {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "MEDICATION_TREATMENT",
+    "physicalTreatment" : null,
+    "physicalDevice" : null,
+    "medication" : "LACTATED_RINGERS",
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  }, {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "MEDICATION_TREATMENT",
+    "physicalTreatment" : null,
+    "physicalDevice" : null,
+    "medication" : "PLASMA",
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  }, {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "MEDICATION_TREATMENT",
+    "physicalTreatment" : null,
+    "physicalDevice" : null,
+    "medication" : "SALINE3",
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  }, {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "MEDICATION_TREATMENT",
+    "physicalTreatment" : null,
+    "physicalDevice" : null,
+    "medication" : "RED_BLOOD_CELLS",
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  }, {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "MEDICATION_TREATMENT",
+    "physicalTreatment" : null,
+    "physicalDevice" : null,
+    "medication" : "TRANEXAMIC_ACID",
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  }, {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "MEDICATION_TREATMENT",
+    "physicalTreatment" : null,
+    "physicalDevice" : null,
+    "medication" : "SALINE09",
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  }, {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "MEDICATION_TREATMENT",
+    "physicalTreatment" : null,
+    "physicalDevice" : null,
+    "medication" : "PLASMALYTE_A",
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  }, {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "MEDICATION_TREATMENT",
+    "physicalTreatment" : null,
+    "physicalDevice" : null,
+    "medication" : "OXYGEN",
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  }, {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "MEDICATION_TREATMENT",
+    "physicalTreatment" : null,
+    "physicalDevice" : null,
+    "medication" : "HEXTEND",
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  }, {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "MEDICATION_TREATMENT",
+    "physicalTreatment" : null,
+    "physicalDevice" : null,
+    "medication" : "ACETAMINOPHEN",
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  }, {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "MEDICATION_TREATMENT",
+    "physicalTreatment" : null,
+    "physicalDevice" : null,
+    "medication" : "ASPIRIN",
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  }, {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "MEDICATION_TREATMENT",
+    "physicalTreatment" : null,
+    "physicalDevice" : null,
+    "medication" : "CALCIUM_GLUCONATE",
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  }, {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "MEDICATION_TREATMENT",
+    "physicalTreatment" : null,
+    "physicalDevice" : null,
+    "medication" : "DIPHENHYDRAMINE",
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  }, {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "MEDICATION_TREATMENT",
+    "physicalTreatment" : null,
+    "physicalDevice" : null,
+    "medication" : "FENTANYL_CITRATE",
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  }, {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "MEDICATION_TREATMENT",
+    "physicalTreatment" : null,
+    "physicalDevice" : null,
+    "medication" : "KETAMINE",
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  }, {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "MEDICATION_TREATMENT",
+    "physicalTreatment" : null,
+    "physicalDevice" : null,
+    "medication" : "MELOXICAM",
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  }, {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "MEDICATION_TREATMENT",
+    "physicalTreatment" : null,
+    "physicalDevice" : null,
+    "medication" : "MIDAZOLAM_HYDROCHLORIDE",
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  }, {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "MEDICATION_TREATMENT",
+    "physicalTreatment" : null,
+    "physicalDevice" : null,
+    "medication" : "NALOXONE",
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  }, {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "MEDICATION_TREATMENT",
+    "physicalTreatment" : null,
+    "physicalDevice" : null,
+    "medication" : "ONDANSETRON",
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  }, {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "MEDICATION_TREATMENT",
+    "physicalTreatment" : null,
+    "physicalDevice" : null,
+    "medication" : "SODIUM_CHLORIDE",
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  }, {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "MEDICATION_TREATMENT",
+    "physicalTreatment" : null,
+    "physicalDevice" : null,
+    "medication" : "NARCAN",
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  }, {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "MEDICATION_TREATMENT",
+    "physicalTreatment" : null,
+    "physicalDevice" : null,
+    "medication" : "MORPHINE",
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  }, {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "MEDICATION_TREATMENT",
+    "physicalTreatment" : null,
+    "physicalDevice" : null,
+    "medication" : "METHYLPREDNISOLONE",
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  }, {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "MEDICATION_TREATMENT",
+    "physicalTreatment" : null,
+    "physicalDevice" : null,
+    "medication" : "LIDOCAINE",
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  }, {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "MEDICATION_TREATMENT",
+    "physicalTreatment" : null,
+    "physicalDevice" : null,
+    "medication" : "IBUPROFEN",
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  }, {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "MEDICATION_TREATMENT",
+    "physicalTreatment" : null,
+    "physicalDevice" : null,
+    "medication" : "EPINEPHRINE",
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  }, {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "MEDICATION_TREATMENT",
+    "physicalTreatment" : null,
+    "physicalDevice" : null,
+    "medication" : "DEXTROSE",
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  }, {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "MEDICATION_TREATMENT",
+    "physicalTreatment" : null,
+    "physicalDevice" : null,
+    "medication" : "ATROPINE",
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  }, {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "MEDICATION_TREATMENT",
+    "physicalTreatment" : null,
+    "physicalDevice" : null,
+    "medication" : "ADENOSINE",
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  }, {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "MEDICATION_TREATMENT",
+    "physicalTreatment" : null,
+    "physicalDevice" : null,
+    "medication" : "ACYCLOVIR",
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  }, {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "MEDICATION_TREATMENT",
+    "physicalTreatment" : null,
+    "physicalDevice" : null,
+    "medication" : "ERTAPENEM",
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  }, {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "MEDICATION_TREATMENT",
+    "physicalTreatment" : null,
+    "physicalDevice" : null,
+    "medication" : "MOXIFLOXACIN",
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  }, {
+    "injuryName" : null,
+    "location" : null,
+    "treatmentType" : "MEDICATION_TREATMENT",
+    "physicalTreatment" : null,
+    "physicalDevice" : null,
+    "medication" : "CLINDAMYCIN",
+    "medRoute" : null,
+    "medDosage" : null,
+    "medDosageTimePeriod" : null
+  } ],
+  "vitals" : {
+    "heartRate" : 70,
+    "systolicBp" : 120,
+    "diastolicBp" : 80,
+    "spO2" : 99.0,
+    "respiratoryRate" : 12.0,
+    "etco2" : 35.0,
+    "temp" : 98.6
+  },
+  "injuries" : [ ]
+} ]

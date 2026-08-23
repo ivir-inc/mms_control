@@ -1,0 +1,16 @@
+{
+"name": "Male - Shingles",
+"injuries": [
+],
+"medications": [
+  {
+    "treatmentName": "Antiviral",
+    "location": null,
+    "medication": "ACYCLOVIR",
+    "route": null,
+    "dosageUnderVal": 200,
+    "dosageOverVal": 800,
+    "dosageCorrectVal": 400,
+    "timePeriod": null
+  }]
+}

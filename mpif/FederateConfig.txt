@@ -1,0 +1,23 @@
+    ##################################
+    #  File used to override settings 
+    ##################################
+
+    # CRC host
+    # crcHost = 239.1.2.3
+    # crcHost = 192.168.4.43
+
+    # CRC port
+    # crcPort = 20913
+
+    # Federate name
+    # federateName = JDP
+
+    # Federation name
+    federationName = JETS
+
+    # Main HLA 1516-2010 Evolved FOM Module URL
+    evolvedFomURL = HLAstandardMIM.xml
+
+    # Additional HLA 1516-2010 Evolved FOM Module URLs
+    additionalFomURLs = Base.xml ; Communications.xml ; Facility.xml ; Instructional.xml ; Medical%20Logistics.xml ; Patient.xml ;  SimControl.xml ; TransferPatient.xml ; Facility.xml
+

@@ -1,0 +1,162 @@
+plugins {
+	id 'java'
+	id 'org.springframework.boot' version '3.3.4'
+	id 'io.spring.dependency-management' version '1.1.6'
+}
+
+group = 'com.ivir'
+version = '4.2.1'
+
+java {
+	toolchain {
+		languageVersion = JavaLanguageVersion.of(17)
+	}
+}
+
+repositories {
+	mavenCentral()
+}
+
+configurations {
+	all {
+		// Exclude default Spring Boot logging (Logback)
+		exclude group: 'org.springframework.boot', module: 'spring-boot-starter-logging'
+	}
+}
+
+/**
+ * portico's package inlcudes log4j which conflicts with spring
+ * this task strips log4j out
+ **/
+tasks.register('stripPorticoLog4j', Zip) {
+	from zipTree('lib/portico.jar')
+	exclude 'org/apache/log4j/**'
+	exclude 'META-INF/maven/org.apache.logging.log4j/**'
+	exclude 'META-INF/org/apache/logging/**'
+	exclude 'META-INF/versions/*/org/apache/logging/**'
+	archiveFileName = 'portico-clean.jar'
+	destinationDirectory = layout.buildDirectory.dir('stripped')
+}
+
+dependencies{
+	implementation fileTree(dir: 'lib', include: '*.jar', exclude: 'portico.jar')
+	implementation files(stripPorticoLog4j)
+
+	implementation 'com.fasterxml.jackson.core:jackson-core:2.21.1'
+	implementation 'com.fasterxml.jackson.core:jackson-databind:2.18.0'
+	implementation 'com.google.zxing:core:3.5.3'
+	implementation 'com.google.zxing:javase:3.5.3'
+	implementation 'org.apache.commons:commons-lang3:3.18.0'
+	implementation 'org.apache.logging.log4j:log4j-core'
+	implementation 'org.dizitart:nitrite:4.3.0'
+	implementation 'org.dizitart:nitrite-jackson-mapper:4.3.0'
+	implementation 'org.jeasy:easy-rules-core:4.1.0'
+	implementation 'org.springframework.boot:spring-boot-starter-log4j2'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-starter-websocket'
+	implementation 'org.springframework.shell:spring-shell-starter'
+
+
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+dependencyManagement {
+	imports {
+		mavenBom "org.springframework.shell:spring-shell-dependencies:3.3.3"
+	}
+}
+
+bootRun {
+	standardInput = System.in
+	systemProperty 'java.net.preferIPv4Stack', 'true'
+	systemProperty 'headless', System.getProperty('headless', 'false')
+}
+
+task getDeps(type: Copy) {
+	from sourceSets.main.runtimeClasspath
+	into 'runtime/'
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}
+
+clean {
+	delete "dist"
+	delete "runtime"
+	delete "zip"
+	delete "src/main/resources/static"
+}
+
+tasks.register('getWeb'){
+	//Web UI
+	copy{
+		from "../flutter_ui/build/web"
+		into "src/main/resources/static"
+	}
+}
+
+tasks.register('packageControl', Zip) {
+
+	mkdir "dist"
+	mkdir "dist/libs"
+	copy {
+		from sourceSets.main.runtimeClasspath
+		into 'runtime/'
+	}
+	copy{
+		from "runtime"
+		include "*.jar"
+		into "dist/libs"
+	}
+//	copy federate files
+	copy{
+		from "."
+		include "*.xml"
+		into "dist"
+	}
+	copy{
+		from "."
+		include "FederateConfig.txt", "mpif.json"
+		into "dist"
+	}
+	copy{
+		from "."
+		include "scenarios/**"
+		into "dist"
+	}
+	copy{
+		from "src/main/resources"
+		include "static/**"
+		into "dist"
+	}
+
+	copy{
+		from "src/main/resources/scripts"
+		include "*"
+		into "dist"
+	}
+	copy{
+		from "src/main/resources"
+		include "application.properties"
+		into "dist"
+	}
+	copy{
+		from "src/main/resources"
+		include "keystore.jks"
+		into "dist/libs"
+	}
+	copy{
+		from "build/libs"
+		include "*plain.jar"
+		into "dist/libs"
+	}
+
+	archiveFileName = "mms-control-${version}.zip"
+	destinationDirectory = layout.buildDirectory.dir('zip')
+	from("dist") {
+		into 'mms_control'
+	}
+
+}

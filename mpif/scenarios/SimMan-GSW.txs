@@ -1,0 +1,108 @@
+{
+"name": "SimMan - GSW",
+"injuries": [
+  {
+  "name": "GSW",
+  "treatments": [
+    {"treatmentName": "Hemostatic Drsg",
+    "physicalTreatment": "STOP_HEMORRHAGE",
+    "device": "BANDAGE",
+    "location": "ANTERIOR_RIGHT_THIGH"
+    },
+    {"treatmentName": "Pressure Drsg",
+    "physicalTreatment": "STOP_HEMORRHAGE",
+    "device": "BANDAGE",
+    "location": "ANTERIOR_RIGHT_THIGH"
+    },
+    {"treatmentName": "Junctional Tq",
+    "physicalTreatment": "STOP_HEMORRHAGE",
+    "device": "JUNCTIONAL_TOURNIQUET",
+    "location": "ANTERIOR_RIGHT_PELVIS"
+    },
+    {"treatmentName": "Extremity Tq",
+    "physicalTreatment": "STOP_HEMORRHAGE",
+    "device": "EXTREMITY_TOURNIQUET",
+    "location": "ANTERIOR_RIGHT_THIGH"
+    }]
+  },
+  {
+  "name": "Compartment Syndrome",
+  "treatments": [
+    {"treatmentName": "Fasciotomy",
+    "physicalTreatment": "RELEASE_COMPARTMENTAL_PRESSURE",
+    "device": "NOT_APPLICABLE",
+    "location": "ANTERIOR_LEFT_LOWER_LEG"
+    }]
+  }],
+"medications": [
+  {
+    "treatmentName": "Analgesic/Sedative",
+    "location": null,
+    "medication": "MORPHINE",
+    "route": null,
+    "dosageUnderVal": 1,
+    "dosageOverVal": 8,
+    "dosageCorrectVal": 2,
+    "timePeriod": null
+  },
+  {
+    "treatmentName": "Antibiotic",
+    "location": null,
+    "medication": "CLINDAMYCIN",
+    "route": null,
+    "dosageUnderVal": 25,
+    "dosageOverVal": 100,
+    "dosageCorrectVal": 50,
+    "timePeriod": null
+  },
+  {
+    "treatmentName": "Fresh Whole Blood",
+    "location": null,
+    "medication": "FRESH_WHOLE_BLOOD",
+    "route": null,
+    "dosageUnderVal": 12.5,
+    "dosageOverVal": 50,
+    "dosageCorrectVal": 25,
+    "timePeriod": null
+  },
+  {
+    "treatmentName": "Lactated Ringer's",
+    "location": null,
+    "medication": "LACTATED_RINGERS",
+    "route": null,
+    "dosageUnderVal": 4.2,
+    "dosageOverVal": 8.3,
+    "dosageCorrectVal": 16.6,
+    "timePeriod": null
+  },
+  {
+    "treatmentName": "Plasma",
+    "location": null,
+    "medication": "PLASMA",
+    "route": null,
+    "dosageUnderVal": 12.5,
+    "dosageOverVal": 50,
+    "dosageCorrectVal": 25,
+    "timePeriod": null
+  },
+  {
+    "treatmentName": "Red Blood Cell",
+    "location": null,
+    "medication": "RED_BLOOD_CELLS",
+    "route": null,
+    "dosageUnderVal": 12.5,
+    "dosageOverVal": 50,
+    "dosageCorrectVal": 25,
+    "timePeriod": null
+  },
+  {
+    "treatmentName": "Tranexamic Acid",
+    "location": null,
+    "medication": "TRANEXAMIC_ACID",
+    "route": null,
+    "dosageUnderVal": 500,
+    "dosageOverVal": 2000,
+    "dosageCorrectVal": 1000,
+    "timePeriod": null
+  }]
+}

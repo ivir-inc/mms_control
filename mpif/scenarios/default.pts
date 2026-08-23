@@ -1,0 +1,13 @@
+[ {
+  "id" : "pt1",
+  "physiologySource" : "INTERNAL",
+  "sourceLocked" : false,
+  "visible" : true,
+  "patientCaseNum" : null
+}, {
+  "id" : "pt2",
+  "physiologySource" : "INTERNAL",
+  "sourceLocked" : false,
+  "visible" : true,
+  "patientCaseNum" : null
+} ]

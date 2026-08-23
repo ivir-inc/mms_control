@@ -1,0 +1,19 @@
+[ {
+  "facilityId" : "Site 1",
+  "instanceName" : null,
+  "location" : null,
+  "roleOfCare" : "ROLE1",
+  "facilityType" : "FIXED",
+  "patientCapacity" : 10,
+  "active" : true,
+  "controlledLocal" : true
+}, {
+  "facilityId" : "Site 2",
+  "instanceName" : null,
+  "location" : null,
+  "roleOfCare" : "ROLE1",
+  "facilityType" : "FIXED",
+  "patientCapacity" : 10,
+  "active" : true,
+  "controlledLocal" : false
+} ]

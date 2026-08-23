@@ -1,0 +1,166 @@
+{
+"name": "SimMan-IED",
+"injuries": [
+  {
+  "name": "Burn",
+  "treatments": [
+    {"treatmentName": "Bandage Burns",
+    "physicalTreatment": "BANDAGE_BURN",
+    "device": "BANDAGE",
+    "location": "ANTERIOR_LEFT_LOWER_THORAX"
+    },
+    {"treatmentName": "Pressure Drsg",
+    "physicalTreatment": "STOP_HEMORRHAGE",
+    "device": "BANDAGE",
+    "location": "ANTERIOR_RIGHT_THIGH"
+    },
+    {"treatmentName": "Escharotomy",
+    "physicalTreatment": "RELEASE_SKIN_PRESSURE",
+    "device": null,
+    "location": null
+    }]
+  },
+  {
+  "name": "Blocked Airway",
+  "treatments": [
+    {"treatmentName": "OPA",
+    "physicalTreatment": "OPEN_TRACHEAL_AIRWAY",
+    "device": "OROPHARYNGEAL_AIRWAY",
+    "location": "NOT_APPLICABLE"
+    },
+    {"treatmentName": "NPA",
+    "physicalTreatment": "OPEN_NASAL_AIRWAY",
+    "device": "NASOPHARYNGEAL_AIRWAY",
+    "location": "NOT_APPLICABLE"
+    },
+    {"treatmentName": "ET-Tube",
+    "physicalTreatment": "OPEN_TRACHEAL_AIRWAY",
+    "device": "ENDOTRACHEAL_TUBE",
+    "location": "NOT_APPLICABLE"
+    },
+    {"treatmentName": "LT",
+    "physicalTreatment": "OPEN_TRACHEAL_AIRWAY",
+    "device": "LARYNGEAL_TUBE",
+    "location": "NOT_APPLICABLE"
+    },
+    {"treatmentName": "SGA",
+    "physicalTreatment": "OPEN_TRACHEAL_AIRWAY",
+    "device": "SUPRAGLOTTIC_DEVICE",
+    "location": "NOT_APPLICABLE"
+    }]
+  },
+  {
+  "name": "Stopped Breathing",
+  "treatments": [
+    {"treatmentName": "BVM",
+    "physicalTreatment": "VENTILATION_MANUAL",
+    "device": "NOT_APPLICABLE",
+    "location": "NOT_APPLICABLE"
+    },
+    {"treatmentName": "Hyper",
+    "physicalTreatment": "VENTILATION_HYPER",
+    "device": "NOT_APPLICABLE",
+    "location": "NOT_APPLICABLE"
+    },
+    {"treatmentName": "PEEP-5",
+    "physicalTreatment": "VENTILATION_PEEP5",
+    "device": "NOT_APPLICABLE",
+    "location": "NOT_APPLICABLE"
+    },
+    {"treatmentName": "PEEP-15",
+    "physicalTreatment": "VENTILATION_PEEP15",
+    "device": "NOT_APPLICABLE",
+    "location": "NOT_APPLICABLE"
+    }]
+  },
+  {
+  "name": "TBI",
+  "treatments": [
+    {"treatmentName": "Pressure Drsg",
+    "physicalTreatment": "STOP_HEMORRHAGE",
+    "device": "BANDAGE",
+    "location": "ANTERIOR_HEAD_FACE"
+    }]
+  }],
+"medications": [
+  {
+    "treatmentName": "Antibiotic",
+    "location": null,
+    "medication": "CLINDAMYCIN",
+    "route": null,
+    "dosageUnderVal": 25,
+    "dosageOverVal": 100,
+    "dosageCorrectVal": 50,
+    "timePeriod": null
+  },
+  {
+    "treatmentName": "Analgesic/Sedative",
+    "location": null,
+    "medication": "MORPHINE",
+    "route": null,
+    "dosageUnderVal": 1,
+    "dosageOverVal": 8,
+    "dosageCorrectVal": 2,
+    "timePeriod": null
+  },
+  {
+    "treatmentName": "Lactated Ringer's",
+    "location": null,
+    "medication": "LACTATED_RINGERS",
+    "route": null,
+    "dosageUnderVal": 4.2,
+    "dosageOverVal": 8.4,
+    "dosageCorrectVal": 4.2,
+    "timePeriod": null
+  },
+  {
+    "treatmentName": "Oxygen",
+    "location": null,
+    "medication": "OXYGEN",
+    "route": null,
+    "dosageUnderVal": 250,
+    "dosageOverVal": 650,
+    "dosageCorrectVal": 500,
+    "timePeriod": null
+  },
+  {
+    "treatmentName": "Plasma-Lyte A",
+    "location": null,
+    "medication": "PLASMALYTE_A",
+    "route": null,
+    "dosageUnderVal": 2.1,
+    "dosageOverVal": 8.4,
+    "dosageCorrectVal": 4.2,
+    "timePeriod": null
+  },
+  {
+    "treatmentName": "Saline 0.9%",
+    "location": null,
+    "medication": "SALINE09",
+    "route": null,
+    "dosageUnderVal": 2.1,
+    "dosageOverVal": 4.2,
+    "dosageCorrectVal": 8.4,
+    "timePeriod": null
+  },
+  {
+    "treatmentName": "Saline 3%",
+    "location": null,
+    "medication": "SALINE3",
+    "route": null,
+    "dosageUnderVal": 2.1,
+    "dosageOverVal": 8.4,
+    "dosageCorrectVal": 4.2,
+    "timePeriod": null
+  },
+  {
+    "treatmentName": "Dextrose",
+    "location": null,
+    "medication": "DEXTROSE50",
+    "route": null,
+    "dosageUnderVal": 12500,
+    "dosageOverVal": 50000,
+    "dosageCorrectVal": 25000,
+    "timePeriod": null
+  }]
+}
